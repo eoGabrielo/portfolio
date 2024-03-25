@@ -1,7 +1,7 @@
 .containerPai {
   width: 100%;
   display: flex;
-  background-color: #003c4c;
+  background-color: #031c32;
   padding: 2rem;
   gap: 1rem;
   justify-content: center;
@@ -14,6 +14,41 @@
   flex-direction: column;
   width: 50%;
   text-align: left;
+  padding: 2rem;
+  border-left: 1px solid #eeeeee31;
+  border-bottom: 1px solid #eeeeee31;
+  border-radius: 25px;
+  animation: pulse 2s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #eeeeee31;
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 1px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 #eeeeee;
+    box-shadow: 0 0 0 0 #eeeeee;
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 8px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+.containerFilho:hover {
+  box-shadow: rgba(38, 57, 77, 0.212) 0px 20px 30px -10px;
 }
 
 .containerFilhoImg {

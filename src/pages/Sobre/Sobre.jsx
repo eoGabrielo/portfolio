@@ -3,6 +3,7 @@ import Cardtecs from "../../components/CardTecs/CardTecs";
 //ICONES SITE -> https://www.flaticon.com/
 //Icon tecs
 import reacticon from "../../img/reacticon.png";
+import jsicon from "../../img/jsicon.png";
 
 const Sobre = () => {
   return (
@@ -46,7 +47,7 @@ const Sobre = () => {
       <h1>Tecnologias</h1>
       <section className={styles.containerCards}>
         <Cardtecs img={reacticon} name="React" />
-        <Cardtecs img={reacticon} name="JavaScript" />
+        <Cardtecs img={jsicon} name="JavaScript" />
         <Cardtecs img={reacticon} name="HTML" />
         <Cardtecs img={reacticon} name="CSS" />
         <Cardtecs img={reacticon} name="Python" />

@@ -4,6 +4,7 @@
   margin: 0 auto;
   padding: 0px 1rem;
   text-align: center;
+
 }
 
 .containerSobre h1 {
@@ -17,6 +18,5 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: aqua;
   gap: 1rem;
 }

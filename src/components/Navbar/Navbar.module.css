@@ -1,5 +1,5 @@
 .nav {
-  background-color: #003c4c;
+  background-color: #031c32;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -32,6 +32,6 @@ a:hover {
 }
 
 .active {
-  background-color: #ffffff0e;
+  background-color: #007d53;
   border-radius: 25px;
 }
