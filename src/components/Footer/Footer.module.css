@@ -1,0 +1,10 @@
+.containerFooter{
+    text-align: center;
+    font-weight: bold;
+    background-color: #1b7d8f;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}

@@ -1,0 +1,29 @@
+.containerPai{
+    width: 100%;
+    display: flex;
+    background-color: rgba(224, 105, 105, 0.062);
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.containerFilho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+.containerFilho p{
+    max-width: 500px;
+}
+
+.containerFilho h1{
+    color: #1b7d8f;
+}
+
+.imgIcon{
+    min-width: 100px;
+    max-width: 300px;
+}
