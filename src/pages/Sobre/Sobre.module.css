@@ -1,0 +1,22 @@
+.containerSobre {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0px 1rem;
+  text-align: center;
+}
+
+.containerSobre h1 {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.containerCards {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: aqua;
+  gap: 1rem;
+}
