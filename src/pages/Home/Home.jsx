@@ -10,7 +10,7 @@ const Home = () => {
         <br />
         <p>
           Experiência em tecnologias para desenvolvimento web, como HTML, CSS e
-          JavaScript, bem como experiência em frameworks como React para o
+          JavaScript, experiência em frameworks como React para o
           front-end e Node.js para o back-end. Além disso, tenho habilidades em
           Python e MySQL.
         </p>
