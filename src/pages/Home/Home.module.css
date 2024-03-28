@@ -82,3 +82,20 @@
   min-width: 100px;
   max-width: 300px;
 }
+
+@media (max-width: 989px) {
+  .containerFilhoImg {
+    display: none;
+  }
+
+  .containerFilho {
+    width: 95%;
+  }
+}
+
+@media (max-width: 550px) {
+  .containerFilho p,
+  h1 {
+    font-size: 90%;
+  }
+}
